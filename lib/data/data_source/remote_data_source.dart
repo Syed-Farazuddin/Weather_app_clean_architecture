@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:clean_architecture_weather/core/constants.dart';
 import 'package:clean_architecture_weather/core/error/failure.dart';
-import 'package:clean_architecture_weather/data/weather_model.dart';
+import 'package:clean_architecture_weather/data/model/weather_model.dart';
 import 'package:http/http.dart';
 
 abstract class RemoteDataSource {
